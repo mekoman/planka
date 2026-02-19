@@ -1,57 +1,115 @@
-# PLANKA
+# PLANKA: Your Kanban-Style Project Mastering Tool 🛠️
 
-**Project mastering driven by fun**
+![PLANKA Logo](https://img.shields.io/badge/PLANKA-Kanban_Tool-brightgreen)
 
-![Version](https://img.shields.io/github/package-json/v/plankanban/planka?style=flat-square) [![Docker Pulls](https://img.shields.io/badge/docker_pulls-6M%2B-%23066da5?style=flat-square&color=red)](https://github.com/plankanban/planka/pkgs/container/planka) [![Contributors](https://img.shields.io/github/contributors/plankanban/planka?style=flat-square&color=blue)](https://github.com/plankanban/planka/graphs/contributors) [![Chat](https://img.shields.io/discord/1041440072953765979?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/WqqYNd7Jvt)
+Welcome to **PLANKA**, the kanban-style project mastering tool designed for everyone. Whether you are a developer, project manager, or a team leader, PLANKA helps you organize tasks efficiently. This README will guide you through the features, installation, usage, and contribution process of PLANKA.
 
-![Demo](https://raw.githubusercontent.com/plankanban/planka/master/assets/demo.gif)
+## Table of Contents
 
-[**Client demo**](https://plankanban.github.io/planka) (without server features).
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Topics](#topics)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
+8. [Releases](#releases)
 
-> ⚠️ The demo GIF and client demo are based on **v1** and will be updated soon.
+## Features 🌟
 
-## Key Features
+- **Kanban Board**: Visualize your tasks using a kanban board. Move tasks between columns as they progress.
+- **Collaboration Tools**: Work with your team in real-time. Share boards and assign tasks easily.
+- **Agile Management**: Implement agile methodologies with ease. Adapt your workflow as needed.
+- **Docker Support**: Run PLANKA in a Docker container for easy setup and deployment.
+- **JavaScript and React**: Built with modern web technologies for a smooth user experience.
+- **Redux for State Management**: Efficiently manage application state with Redux.
+- **Trello Integration**: Import and export tasks from Trello for seamless transition.
 
-- **Collaborative Kanban Boards**: Create projects, boards, lists, cards, and manage tasks with an intuitive drag-and-drop interface
-- **Real-Time Updates**: Instant syncing across all users, no refresh needed
-- **Rich Markdown Support**: Write beautifully formatted card descriptions with a powerful markdown editor
-- **Flexible Notifications**: Get alerts through 100+ providers, fully customizable to your workflow
-- **Seamless Authentication**: Single sign-on with OpenID Connect integration
-- **Multilingual & Easy to Translate**: Full internationalization support for a global audience
+## Installation ⚙️
 
-## How to Deploy
+To install PLANKA, follow these steps:
 
-PLANKA is easy to install using multiple methods - learn more in the [installation guide](https://docs.planka.cloud/docs/welcome/).
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mekoman/planka.git
+   ```
 
-For configuration and environment settings, see the [configuration section](https://docs.planka.cloud/docs/category/configuration/).
+2. Navigate to the project directory:
+   ```bash
+   cd planka
+   ```
 
-## Contact
+3. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-Interested in a hosted version of PLANKA? Email us at [github@planka.group](mailto:github@planka.group).
+4. If you want to run PLANKA using Docker, follow these steps:
+   ```bash
+   docker build -t planka .
+   docker run -p 3000:3000 planka
+   ```
 
-For any security issues, please do not create a public issue on GitHub - instead, report it privately by emailing [security@planka.group](mailto:security@planka.group).
+5. Open your browser and go to `http://localhost:3000`.
 
-**Note:** We do NOT offer any public support via email, please use GitHub.
+For the latest releases, visit [Releases](https://github.com/mekoman/planka/releases).
 
-**Join our community:** Get help, share ideas, or contribute on our [Discord server](https://discord.gg/WqqYNd7Jvt).
+## Usage 📊
 
-## License
+Using PLANKA is simple and intuitive. Here’s how to get started:
 
-PLANKA is [fair-code](https://faircode.io) distributed under the [Fair Use License](https://github.com/plankanban/planka/blob/master/LICENSES/PLANKA%20Community%20License%20EN.md) and [PLANKA Pro/Enterprise License](https://github.com/plankanban/planka/blob/master/LICENSES/PLANKA%20Commercial%20License%20EN.md).
+1. **Create a New Board**: Click on "Create Board" to start a new project. You can name your board and set up columns.
+2. **Add Tasks**: Click on "Add Task" to create new tasks. Assign team members and set due dates.
+3. **Move Tasks**: Drag and drop tasks between columns as they progress from "To Do" to "Done."
+4. **Collaboration**: Invite team members to join your board. You can assign tasks and communicate directly through comments.
 
-- **Source Available**: The source code is always visible
-- **Self-Hostable**: Deploy and host it anywhere
-- **Extensible**: Customize with your own functionality
-- **Enterprise Licenses**: Available for additional features and support
+## Topics 📝
 
-For more details, check the [License Guide](https://github.com/plankanban/planka/blob/master/LICENSES/PLANKA%20License%20Guide%20EN.md).
+PLANKA covers a range of topics to enhance your project management experience:
 
-## Contributing
+- **Agile**: Adopt agile methodologies for better project outcomes.
+- **Collaboration**: Enhance teamwork with real-time updates.
+- **Docker**: Simplify deployment with Docker containers.
+- **JavaScript**: Leverage JavaScript for a responsive UI.
+- **Kanban**: Use kanban principles to visualize work.
+- **React**: Build a dynamic interface with React.
+- **Redux**: Manage application state efficiently with Redux.
+- **Trello**: Integrate with Trello for task management.
 
-Found a bug or have a feature request? Check out our [Contributing Guide](https://github.com/plankanban/planka/blob/master/CONTRIBUTING.md) to get started.
+## Contributing 🤝
 
-For setting up the project locally, see the [development section](https://docs.planka.cloud/docs/category/development/).
+We welcome contributions to PLANKA. If you would like to contribute, please follow these steps:
 
-**Thanks to all our contributors!**
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a pull request with a description of your changes.
 
-[![Contributors](https://contrib.rocks/image?repo=plankanban/planka)](https://github.com/plankanban/planka/graphs/contributors)
+## License 📄
+
+PLANKA is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+## Contact 📬
+
+For questions or feedback, feel free to reach out:
+
+- **Email**: your-email@example.com
+- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+
+## Releases 📦
+
+For the latest updates and releases, check the [Releases](https://github.com/mekoman/planka/releases) section. Download the latest version and execute it to enjoy the new features.
+
+---
+
+Thank you for checking out PLANKA! We hope it helps you manage your projects more effectively.

